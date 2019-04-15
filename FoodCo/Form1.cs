@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-// Estudante: Douglas Gorges
+// Estudante: Douglas Gorges RA:336650713886
 
 namespace FoodCo
 {
@@ -65,6 +65,20 @@ namespace FoodCo
         private void status(object sender, EventArgs e)
         {
             label10.Text = "Cadastrado com sucesso!";
+            label9.Text = "R$ --";
+            textBox1.Text = "";
+            comboBox1.Text = "";
+            comboBox2.Text = "";
+            comboBox3.Text = "";
+        }
+
+        private void clear(object sender, EventArgs e)
+        {
+            label9.Text = "R$ --";
+            textBox1.Text = "";
+            comboBox1.Text = "";
+            comboBox2.Text = "";
+            comboBox3.Text = "";
         }
     }
 }

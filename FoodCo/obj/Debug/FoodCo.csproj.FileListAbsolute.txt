@@ -8,3 +8,4 @@ D:\Faculdade\University-FoodCo-\FoodCo\obj\Debug\FoodCo.csproj.GenerateResource.
 D:\Faculdade\University-FoodCo-\FoodCo\obj\Debug\FoodCo.csproj.CoreCompileInputs.cache
 D:\Faculdade\University-FoodCo-\FoodCo\obj\Debug\FoodCo.exe
 D:\Faculdade\University-FoodCo-\FoodCo\obj\Debug\FoodCo.pdb
+D:\Faculdade\University-FoodCo-\FoodCo\obj\Debug\FoodCo.Form2.resources
