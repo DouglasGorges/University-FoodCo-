@@ -8,10 +8,6 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-// Estudante: Douglas Gorges RA:336650713886
-
-//O prazo de entrega desse projeto foi estendido por eu ter participado da reunião com o MEC
-
 namespace FoodCo
 {
     public partial class Form1 : Form
@@ -21,7 +17,7 @@ namespace FoodCo
             InitializeComponent();
         }
 
-        private void label1_Click(object sender, EventArgs e) // Esse método foi criado a partir de um clique-duplo errado. Mas se eu excluo dá erro no Visual Studio
+        private void label1_Click(object sender, EventArgs e)
         {
 
         }
@@ -34,7 +30,7 @@ namespace FoodCo
             }
         }
 
-        private void Form1_Load(object sender, EventArgs e) // Esse método foi criado a partir de um clique-duplo errado. Mas se eu excluo dá erro no Visual Studio
+        private void Form1_Load(object sender, EventArgs e)
         {
 
         }
@@ -59,15 +55,15 @@ namespace FoodCo
             }
         }
 
-        private void label10_Click(object sender, EventArgs e)// Esse método foi criado a partir de um clique-duplo errado. Mas se eu excluo dá erro no Visual Studio
+        private void label10_Click(object sender, EventArgs e)
         {
 
         }
 
-        private void status(object sender, EventArgs e) // Eu gostaria que o mesmo botão do formulário chamasse dois métodos diferentes, assim eu poderia separar a mensagem de confirmação num método exclusivo.
+        private void status(object sender, EventArgs e)
         {
-            label10.Text = "Cadastrado com sucesso!"; //Busquei alguma forma de fazer essa mensagem ser exibida em uma nova janela de formulário. Mas a função Form2.Show() não funcionou.
-            label9.Text = "R$ --";                    //Tambem tentei fazer com que a mensagem "Cadastrado com sucesso!" aparecesse apenas por alguns segundos, mas não vi forma de fazê-lo.
+            label10.Text = "Cadastrado com sucesso!";
+            label9.Text = "R$ --";
             textBox1.Text = "";
             comboBox1.Text = "";
             comboBox2.Text = "";
